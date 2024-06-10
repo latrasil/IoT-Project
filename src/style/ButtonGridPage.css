@@ -1,0 +1,17 @@
+/* src/styles/ButtonGridPage.css */
+.button-grid-container {
+    background-image: url('../assets/login.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Asegura que haya algo de espacio alrededor del contenedor */
+  }
+  
+  .button-grid-container > * {
+    flex: 1 0 161px; /* Asegura que los botones mantengan sus dimensiones */
+    margin: 9.5px; /* Asegura que haya 19px de separación entre botones */
+    max-width: 161px; /* Asegura que los botones no se estiren más allá de sus dimensiones */
+  }
+  

@@ -1,0 +1,60 @@
+/* src/styles/SignInPage.css */
+body {
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/login.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+  }
+  
+  .signin-logo {
+    padding-top: 150px;
+    width: 114px; /* Ancho del logo */
+    height: 132px; /* Altura del logo */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+  }
+  
+  .input {
+    width: 360px; /* Ancho del campo de entrada */
+    height: 26.81px; /* Altura del campo de entrada */
+    margin: 22px 0; /* Espacio entre los campos de entrada (mitad de 44px) */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .btn {
+    width: 326px;
+    height: 48px;
+    background-color: #0f2333;
+    color: white;
+    border: none;
+    border-radius: 29px; /* Mitad de la altura para bordes redondeados */
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase; /* Para que el texto aparezca en mayúsculas */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 24px; /* Espacio encima del botón */
+  }
+  
+  .btn:hover {
+    background-color: #5aaae5; /* Color al pasar el ratón */
+  }
+  
+  .btn:active {
+    background-color: #4a8dc2; /* Color al hacer clic */
+  }
+  

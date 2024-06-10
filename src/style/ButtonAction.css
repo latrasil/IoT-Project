@@ -1,0 +1,27 @@
+/* src/styles/LargeButton.css */
+.action-button {
+    width: 326px;
+    height: 48px;
+    background-color: #6ebeff;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase; /* Para que el texto aparezca en mayúsculas */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 9.5px; /* Mitad del espacio entre botones para asegurar 19px entre ellos */
+  }
+  
+  .action-button:hover {
+    background-color: #5aaae5;
+  }
+  
+  .action-button:active {
+    background-color: #4a8dc2;
+  }
+  
