@@ -1,0 +1,26 @@
+/* src/components/Button.css */
+.btn {
+    width: 326px;
+    height: 58px;
+    background-color: #6ebeff;
+    color: white;
+    border: none;
+    border-radius: 29px; /* Mitad de la altura para bordes redondeados */
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase; /* Para que el texto aparezca en mayúsculas */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 16px; /* Espacio entre los botones */
+  }
+  .btn:hover {
+    background-color: #0f2333; /* Color al pasar el ratón */
+  }
+  
+  .btn:active {
+    background-color: #0f2333; /* Color al hacer clic */
+  }
+  
