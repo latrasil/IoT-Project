@@ -9,7 +9,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('../assets/login.jpg'); /* Ruta de la imagen de fondo */
+    /*background-image: url('../assets/login.jpg'); /* Ruta de la imagen de fondo */
+    background-color: #1b252d;
     background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
     background-position: center; /* Centrar la imagen de fondo */
     background-repeat: no-repeat; /* No repetir la imagen */

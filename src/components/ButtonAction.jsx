@@ -1,11 +1,10 @@
-// src/components/LargeButton.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../style/ButtonAction.css';
 
 const ButtonAction = ({ text, onClick }) => {
   return (
-    <button className="action-button" onClick={onClick}>
+    <button className="btn" onClick={onClick}>
       {text}
     </button>
   );

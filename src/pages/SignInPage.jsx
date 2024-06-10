@@ -1,10 +1,10 @@
-// src/pages/SignInPage.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import ButtonAction from '../components/ButtonAction';
 import '../style/SignInPage.css';
 import pageTitles from '../pageTitles.js';
+import logo from '../assets/ivi.png';
 
 function SignInPage() {
   const navigate = useNavigate();
@@ -15,6 +15,7 @@ function SignInPage() {
 
   const handleSignIn = () => {
     console.log('Iniciar Sesión', { email, password, token });
+    navigate('/button-grid'); // Navegar a ButtonGridPage
   };
 
   const [email, setEmail] = useState('');
@@ -27,6 +28,7 @@ function SignInPage() {
         title={pageTitles.login} 
         onButtonClick={handleBackClick} 
       />
+      <img src={logo} alt="Logo" className="login-logo" />
       <input
         type="email"
         value={email}
